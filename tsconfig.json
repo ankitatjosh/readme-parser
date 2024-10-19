@@ -16,6 +16,14 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "readme-parser-light": [
+        "dist/readme-parser-light"
+      ],
+      "reame-parser-light": [
+        "dist/reame-parser-light"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
