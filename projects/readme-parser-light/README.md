@@ -19,7 +19,7 @@ npm install ng-readme-parser
 
 ## Supported Markdown Elements
 
-- Headers (H3 to H6)
+- Headers (H1 to H6)
 - Bold text
 - Italic text
 - Unordered lists
@@ -79,6 +79,8 @@ This is a paragraph with **bold** and *italic* text.
 ### Headers
 
 ```markdown
+# H1 Header
+## H2 Header
 ### H3 Header
 #### H4 Header
 ##### H5 Header

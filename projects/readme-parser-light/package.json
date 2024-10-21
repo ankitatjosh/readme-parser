@@ -1,5 +1,5 @@
 {
-  "name": "readme-parser-light",
+  "name": "markdown-parser-light",
   "version": "0.1.2",
   "peerDependencies": {
     "@angular/common": "^16.1.0",

@@ -12,7 +12,9 @@ export class ReadmeParserLightService {
     html = html.replace(/\n\n/g, '</p><p>');
     html = html.replace(/\n/g, '<br>');
 
-    // Parse headers (h3 to h6)
+    // Parse headers (h1 to h6)
+    html = html.replace(/# (.*?)(?:\n|$)/g, '<h1>$1</h1>');
+    html = html.replace(/## (.*?)(?:\n|$)/g, '<h2>$1</h2>');
     html = html.replace(/### (.*?)(?:\n|$)/g, '<h3>$1</h3>');
     html = html.replace(/#### (.*?)(?:\n|$)/g, '<h4>$1</h4>');
     html = html.replace(/##### (.*?)(?:\n|$)/g, '<h5>$1</h5>');
